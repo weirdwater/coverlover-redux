@@ -24,16 +24,6 @@ app.get('*', (req, res) => {
     } else {
       // Set initialState here if needed.
       const initialState = {};
-<<<<<<< HEAD
-=======
-      initialState.todos = [];
-
-      initialState.todos.push({
-        id: 912,
-        text: "Initial state has been set",
-        completed: false
-      });
->>>>>>> parent of e1d016a... Adds fetching cards
 
       const store = configureStore(initialState);
       const react = (
