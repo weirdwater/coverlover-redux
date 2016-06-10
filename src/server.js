@@ -24,7 +24,7 @@ app.get('*', (req, res) => {
     } else {
       // Set initialState here if needed.
       const initialState = {};
-
+      
       const store = configureStore(initialState);
       const react = (
         <Provider store={store}>

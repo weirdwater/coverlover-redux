@@ -5,9 +5,8 @@ import rootReducer from '../reducers';
 
 export default function configureStore(initialState) {
   const middleware = process.env.NODE_ENV !== 'production' ?
-    [invariant(), thunk] :
+    [thunk, invariant()] :
     [thunk];
-
   return createStore(
     rootReducer,
     initialState,
