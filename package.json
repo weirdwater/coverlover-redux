@@ -1,7 +1,7 @@
 {
-  "name": "isomorphic-redux-starterkit",
+  "name": "lets-go-redux",
   "version": "1.0.0",
-  "description": "Redux Starter Kit",
+  "description": "Isomorphic redux starter kit",
   "scripts": {
     "start": "npm run serve",
     "serve": "NODE_ENV=development babel-node ./src/server.js",
@@ -51,6 +51,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jdreg95/isomorphic-redux-starterkit"
+    "url": "https://github.com/jdreg95/lets-go-redux"
   }
 }
