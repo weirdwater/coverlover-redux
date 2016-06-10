@@ -24,13 +24,6 @@ app.get('*', (req, res) => {
     } else {
       // Set initialState here if needed.
       const initialState = {};
-      initialState.todos = [];
-
-      initialState.todos.push({
-        id: 912,
-        text: "Initial state has been set",
-        completed: false
-      });
 
       const store = configureStore(initialState);
       const react = (
